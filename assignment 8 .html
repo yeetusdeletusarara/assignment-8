@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+
+
+
+    <script>
+
+        function yes() { alert("yes")}
+
+        function amogus()  {
+
+  var txt;
+
+  if (confirm("Press a button!")) {
+
+    txt = "You pressed ok";
+
+  } else {
+
+    txt = "You pressed cancel";
+
+  }
+
+  document.getElementById("oo").innerHTML = txt;
+
+} 
+
+
+
+
+function woo() {
+
+  let text;
+
+   let item = prompt("enter any item:", "apples")
+
+   if (item == null || item == "") {
+
+    text = "no item given";
+
+   } else { 
+
+    text = item + " is the item you typed"
+
+  }
+
+   document.getElementById("1").innerHTML = text;
+
+
+
+
+}
+
+    </script>
+
+</head>
+
+<body>
+
+  <button onclick="yes()"> les goo </button> 
+
+  
+
+  <p id="oo">
+
+  <button onclick="amogus()"> les goo  </button>
+
+</p>
+
+
+
+
+<p id="1"> 
+
+  <button onclick="woo()"> les goo
+
+  </button></p>
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+
